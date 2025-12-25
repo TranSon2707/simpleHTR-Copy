@@ -238,23 +238,6 @@ def main():
 if __name__ == '__main__':
     main()
     """
-    python main.py --mode train --data_dir ../src/dataset
-
-
-    python main.py --mode train --data_dir ../dataset --fast
-
-
-
-    cd src
-    python main.py --mode train --data_dir ../dataset --batch_size 1 --early_stopping 5
-
-    
-        python main.py \
-    --mode train \
-    --batch_size 16 \
-    --early_stopping 10 \
-    --decoder bestpath \
-    --fast
 
     TRAIN:
     python main.py --mode train --data_dir ../dataset --batch_size 100 --early_stopping 10 --fast
@@ -267,5 +250,15 @@ if __name__ == '__main__':
 
     INFERENCE:
     python main.py --mode infer --img_file ../data/word.png
+    
+
+
+    RUN IN VIRTUAL ENVIRONMENT ON UI:
+    cd ..\SimpleHTR - Copy
+    .venv\Scripts\activate
+    cd src
+    python main.py --mode infer --img_file ../data/word.png
+
+
     """
 
