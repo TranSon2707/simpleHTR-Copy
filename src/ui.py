@@ -57,7 +57,7 @@ def select_image():
 # UI Setup
 # -------------------------------
 root = tk.Tk()
-root.title("SimpleHTR Inference UI")
+root.title("HTR")
 root.geometry("700x500")
 
 img_path = tk.StringVar()
@@ -78,4 +78,5 @@ cd ..\SimpleHTR - Copy
 .venv\Scripts\activate
 cd src
 python ui.py
+
 """
